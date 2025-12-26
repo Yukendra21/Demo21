@@ -1,0 +1,75 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+main {
+    padding: 30px;
+}
+
+section {
+    background: white;
+    padding: 25px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+input[type="radio"] {
+    width: auto;
+}
+
+button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #222;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: orange;
+}
